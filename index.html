@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#00637C" />
-  <title>LJS Plumbers & Drainlayers | 24/7 Emergency Plumbers</title>
-  <meta name="description" content="LJS Plumbers & Drainlayers — fast, reliable plumbing and drainage services. Burst geysers, blocked drains, pipe repairs, sewer & storm water drainage, bathroom revamps. Free quotes. Call or WhatsApp now." />
+  <meta name="theme-color" content="#1D3557" />
+  <title>LJS Plumbers & Drainlayers | Burst Geysers, Blocked Drains & Pipe Repairs</title>
+  <meta name="description" content="LJS Plumbers & Drainlayers — fast, reliable plumbing and drainage. Burst geysers, blocked drains, pipe repairs, sewer & storm water drainage, bathroom revamps, building services. Free quotes, 24/7." />
   <meta name="keywords" content="plumber, drainlayer, burst geyser, blocked drains, pipe repairs, sewer drainage, storm water, bathroom renovation, emergency plumber, building services" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://ljs-plumbers.netlify.app/" />
@@ -17,7 +17,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Anton&family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 
@@ -63,22 +63,11 @@
   <header class="header" id="header">
     <div class="container header-inner">
       <a href="#home" class="logo" aria-label="LJS Plumbers & Drainlayers home">
-        <svg class="logo-svg" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <defs>
-            <linearGradient id="ljsGrad" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stop-color="#1BA0C0"/>
-              <stop offset="100%" stop-color="#00374A"/>
-            </linearGradient>
-          </defs>
-          <!-- Icon: water drop + pipe -->
-          <g transform="translate(8,12)">
-            <path d="M28 2 C28 2, 10 22, 10 36 a18 18 0 0 0 36 0 C46 22, 28 2, 28 2 Z" fill="url(#ljsGrad)"/>
-            <circle cx="22" cy="34" r="4" fill="#7FD6E8" opacity="0.85"/>
-          </g>
-          <!-- Wordmark -->
-          <text x="72" y="38" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="26" fill="#08141C" letter-spacing="1">LJS</text>
-          <text x="72" y="58" font-family="Plus Jakarta Sans, sans-serif" font-weight="600" font-size="11" fill="#00637C" letter-spacing="2">PLUMBERS &amp; DRAINLAYERS</text>
-        </svg>
+        <img src="images/logo.png" alt="LJS Plumbers & Drainlayers logo" class="logo-img" onerror="this.style.display='none'" />
+        <div class="logo-text">
+          <span class="logo-text-name">LJS</span>
+          <span class="logo-text-sub">Plumbers &amp; Drainlayers</span>
+        </div>
       </a>
 
       <nav class="nav" id="nav">
@@ -86,7 +75,7 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#why">Why Us</a></li>
-          <li><a href="#process">How It Works</a></li>
+          <li><a href="#process">Process</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -104,55 +93,76 @@
 
   <!-- HERO -->
   <section class="hero" id="home">
-    <div class="hero-overlay"></div>
-    <div class="hero-shape"></div>
-    <div class="hero-bg"></div>
     <div class="container hero-inner">
       <div class="hero-content reveal">
-        <span class="eyebrow">
-          <span class="pulse-dot"></span> 24/7 EMERGENCY PLUMBERS &amp; DRAINLAYERS
+        <span class="hero-badge">
+          <span class="pulse-dot"></span> 24/7 EMERGENCY CALL-OUTS
         </span>
-        <h1>Burst, Blocked or Broken?<br/><span class="gradient-text">We Fix It Today.</span></h1>
-        <p class="hero-sub">Qualified plumbers and drainlayers on the road for <span class="area-highlight">burst geysers</span>, <span class="area-highlight">blocked drains</span>, <span class="area-highlight">pipe repairs</span> and full <span class="area-highlight">bathroom revamps</span>. Upfront pricing, written quotes, guaranteed workmanship. Send us a photo on WhatsApp and we'll come running.</p>
+        <h1>Burst. Blocked.<br/>Broken?<br/><span class="accent-gold">We fix it.</span></h1>
+        <p class="hero-sub">Qualified plumbers and drainlayers on the road for <span class="tag-highlight">burst geysers</span>, <span class="tag-highlight">blocked drains</span>, <span class="tag-highlight">pipe repairs</span> and full <span class="tag-highlight">bathroom revamps</span>. Upfront pricing. Written quotes. Guaranteed workmanship.</p>
 
         <div class="hero-cta">
           <a href="https://wa.me/27638742223?text=Hi%20LJS%20Plumbers%2C%20I%20need%20a%20plumber." target="_blank" rel="noopener" class="btn btn-wa btn-xl">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.82 11.82 0 0 0 12 0C5.37 0 0 5.37 0 12a11.94 11.94 0 0 0 1.64 6L0 24l6.2-1.62A11.9 11.9 0 0 0 12 24c6.63 0 12-5.37 12-12a11.82 11.82 0 0 0-3.48-8.52zM12 21.82a9.84 9.84 0 0 1-5-1.36l-.36-.21-3.68.97.98-3.58-.23-.37A9.82 9.82 0 1 1 21.82 12 9.84 9.84 0 0 1 12 21.82zm5.36-7.38c-.29-.15-1.73-.86-2-.96s-.46-.15-.66.15-.75.95-.92 1.15-.33.22-.62.07a8.06 8.06 0 0 1-2.37-1.47 8.85 8.85 0 0 1-1.64-2.05c-.17-.29 0-.45.13-.59s.29-.34.43-.51a1.92 1.92 0 0 0 .29-.48.53.53 0 0 0 0-.51c-.07-.15-.66-1.6-.91-2.19s-.48-.5-.66-.51h-.57a1.09 1.09 0 0 0-.79.37 3.3 3.3 0 0 0-1 2.45c0 1.45 1.05 2.85 1.2 3.05s2.07 3.15 5.02 4.42a17 17 0 0 0 1.68.62 4 4 0 0 0 1.86.12c.57-.09 1.73-.71 1.97-1.39a2.45 2.45 0 0 0 .17-1.39c-.07-.12-.27-.19-.56-.34z"/></svg>
-            WhatsApp Us Now
+            WhatsApp Now
           </a>
           <a href="tel:+27638742223" class="btn btn-primary btn-xl">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            Call 063 874 2223
+            063 874 2223
           </a>
         </div>
 
         <ul class="hero-trust">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Fast response</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Free written quotes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Free quotes</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Fully insured</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Workmanship guarantee</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Guaranteed work</li>
         </ul>
       </div>
 
       <div class="hero-visual reveal">
-        <div class="visual-card">
-          <div class="visual-head">
-            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
-            <span>Live • Technician dispatch</span>
+        <div class="quote-card">
+          <div class="quote-head">
+            <strong>Job Sheet</strong>
+            <span class="job-num">#LJS-001</span>
           </div>
-          <div class="visual-body">
-            <div class="stat"><strong>500+</strong><span>Jobs completed</span></div>
-            <div class="stat"><strong>4.9★</strong><span>Client rating</span></div>
-            <div class="stat"><strong>Same-Day</strong><span>Service</span></div>
-            <div class="stat"><strong>24/7</strong><span>Emergency line</span></div>
+          <div class="quote-rows">
+            <div class="quote-row"><strong>Response time</strong><span class="check">Fast ✓</span></div>
+            <div class="quote-row"><strong>Written quote</strong><span class="check">Free ✓</span></div>
+            <div class="quote-row"><strong>Workmanship</strong><span class="check">Guaranteed ✓</span></div>
+            <div class="quote-row"><strong>Call-out fee</strong><span>On quote</span></div>
+            <div class="quote-row"><strong>Payment</strong><span>After job done</span></div>
+          </div>
+          <div class="quote-total">
+            <small>Total damage</small>
+            <span>R 0 upfront</span>
           </div>
         </div>
       </div>
     </div>
+    <div class="hero-cut"></div>
+  </section>
 
-    <svg class="hero-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
-      <path d="M0,64 C240,120 480,0 720,48 C960,96 1200,32 1440,72 L1440,120 L0,120 Z" fill="#ffffff"/>
-    </svg>
+  <!-- MARQUEE -->
+  <section class="marquee">
+    <div class="marquee-track">
+      <span>Burst Geysers</span>
+      <span>Blocked Drains</span>
+      <span>Pipe Repairs</span>
+      <span>Sewer &amp; Storm Water</span>
+      <span>Bathroom Revamps</span>
+      <span>Building Services</span>
+      <span>Leak Detection</span>
+      <span>24/7 Emergency</span>
+      <span>Burst Geysers</span>
+      <span>Blocked Drains</span>
+      <span>Pipe Repairs</span>
+      <span>Sewer &amp; Storm Water</span>
+      <span>Bathroom Revamps</span>
+      <span>Building Services</span>
+      <span>Leak Detection</span>
+      <span>24/7 Emergency</span>
+    </div>
   </section>
 
   <!-- TRUST BAR -->
@@ -160,23 +170,38 @@
     <div class="container trustbar-inner">
       <div class="tbar-item reveal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9z"/></svg>
-        <div><strong>Fast Response</strong><span>On the road, not on hold</span></div>
+        <div>
+          <strong>Fast Response</strong>
+          <span>On the road, not on hold</span>
+        </div>
       </div>
       <div class="tbar-item reveal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        <div><strong>Local Experts</strong><span>Qualified plumbers &amp; drainlayers</span></div>
+        <div>
+          <strong>Local Experts</strong>
+          <span>Qualified plumbers &amp; drainlayers</span>
+        </div>
       </div>
       <div class="tbar-item reveal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-        <div><strong>Honest Pricing</strong><span>Free quotes, zero surprises</span></div>
+        <div>
+          <strong>Honest Pricing</strong>
+          <span>Free quotes, zero surprises</span>
+        </div>
       </div>
       <div class="tbar-item reveal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-        <div><strong>Same-Day Service</strong><span>7 days a week</span></div>
+        <div>
+          <strong>Same-Day Service</strong>
+          <span>7 days a week</span>
+        </div>
       </div>
       <div class="tbar-item reveal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        <div><strong>Guaranteed Work</strong><span>Written workmanship warranty</span></div>
+        <div>
+          <strong>Guaranteed Work</strong>
+          <span>Written workmanship warranty</span>
+        </div>
       </div>
     </div>
   </section>
@@ -185,82 +210,125 @@
   <section class="services section" id="services">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow dark"><span class="pulse-dot"></span> WHAT WE DO</span>
-        <h2>Plumbing &amp; drainage done <span class="gradient-text">right the first time.</span></h2>
+        <span class="eyebrow dark">What we do</span>
+        <h2>Plumbing &amp; drainage — <span class="accent-red">done right.</span></h2>
         <p>From a 2 a.m. burst geyser to a full bathroom revamp — our qualified plumbers and drainlayers take the whole job off your hands. Cleanly, on time, and backed by a written guarantee.</p>
       </div>
 
       <div class="service-grid">
         <article class="service-card reveal">
-          <div class="svc-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 13h5"/><path d="M12 17v2"/></svg>
+          <div class="card-top">
+            <span class="svc-num">01</span>
+            <div class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 13h5"/><path d="M12 17v2"/></svg>
+            </div>
           </div>
-          <h3>Burst Geysers</h3>
-          <p>Leaking, tripping or gone cold? We repair, replace and install electric, solar and heat-pump geysers — same-day in most cases.</p>
-          <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          <div class="card-body">
+            <h3>Burst Geysers</h3>
+            <p>Leaking, tripping or gone cold? We repair, replace and install electric, solar and heat-pump geysers — same-day in most cases.</p>
+            <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          </div>
         </article>
 
         <article class="service-card reveal">
-          <div class="svc-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/><path d="M3 12c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/><path d="M3 7c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/></svg>
+          <div class="card-top">
+            <span class="svc-num">02</span>
+            <div class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/><path d="M3 12c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/><path d="M3 7c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/></svg>
+            </div>
           </div>
-          <h3>Sewer &amp; Storm Water Drainage</h3>
-          <p>Full drainage installs, repairs and unblocking. New sewer lines, storm water channels and yard gullies — laid correctly and tested.</p>
-          <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          <div class="card-body">
+            <h3>Sewer &amp; Storm Water</h3>
+            <p>Full drainage installs, repairs and unblocking. New sewer lines, storm water channels and yard gullies — laid correctly and tested.</p>
+            <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          </div>
         </article>
 
         <article class="service-card reveal">
-          <div class="svc-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+          <div class="card-top">
+            <span class="svc-num">03</span>
+            <div class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+            </div>
           </div>
-          <h3>Pipe Repairs</h3>
-          <p>Burst, leaking or rotting pipes? We re-plumb and repair copper, PEX and PVC lines — done to SABS plumbing standards.</p>
-          <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          <div class="card-body">
+            <h3>Pipe Repairs</h3>
+            <p>Burst, leaking or rotting pipes? We re-plumb and repair copper, PEX and PVC lines — done to SABS plumbing standards.</p>
+            <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          </div>
         </article>
 
         <article class="service-card reveal">
-          <div class="svc-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>
+          <div class="card-top">
+            <span class="svc-num">04</span>
+            <div class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>
+            </div>
           </div>
-          <h3>Blocked Drains</h3>
-          <p>High-pressure jetting, rodding and camera inspections. We clear the blockage <em>and</em> show you exactly why it happened.</p>
-          <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          <div class="card-body">
+            <h3>Blocked Drains</h3>
+            <p>High-pressure jetting, rodding and camera inspections. We clear the blockage <em>and</em> show you exactly why it happened.</p>
+            <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          </div>
         </article>
 
         <article class="service-card reveal">
-          <div class="svc-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 21V9l7-6 7 6v12"/><path d="M9 21v-6h6v6"/></svg>
+          <div class="card-top">
+            <span class="svc-num">05</span>
+            <div class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 21V9l7-6 7 6v12"/><path d="M9 21v-6h6v6"/></svg>
+            </div>
           </div>
-          <h3>Bathroom Revamps</h3>
-          <p>Full strip-outs, tiling, plumbing, fittings and finishes. Turn a tired bathroom into the best room in the house.</p>
-          <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          <div class="card-body">
+            <h3>Bathroom Revamps</h3>
+            <p>Full strip-outs, tiling, plumbing, fittings and finishes. Turn a tired bathroom into the best room in the house.</p>
+            <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          </div>
         </article>
 
         <article class="service-card reveal">
-          <div class="svc-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/><path d="M9 9h.01M15 9h.01M9 13h.01M15 13h.01"/></svg>
+          <div class="card-top">
+            <span class="svc-num">06</span>
+            <div class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/><path d="M9 9h.01M15 9h.01M9 13h.01M15 13h.01"/></svg>
+            </div>
           </div>
-          <h3>Building Services</h3>
-          <p>Extensions, repairs, alterations and finishes. From boundary walls to full builds — we handle the trades and the timeline.</p>
-          <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          <div class="card-body">
+            <h3>Building Services</h3>
+            <p>Extensions, repairs, alterations and finishes. From boundary walls to full builds — we handle the trades and the timeline.</p>
+            <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          </div>
         </article>
 
         <article class="service-card reveal">
-          <div class="svc-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <div class="card-top">
+            <span class="svc-num">07</span>
+            <div class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            </div>
           </div>
-          <h3>Leak Detection</h3>
-          <p>Non-invasive electronic and acoustic leak detection — find the problem without smashing walls or lifting tiles.</p>
-          <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          <div class="card-body">
+            <h3>Leak Detection</h3>
+            <p>Non-invasive electronic and acoustic leak detection — find the problem without smashing walls or lifting tiles.</p>
+            <a href="#contact" class="svc-link">Book this <span>→</span></a>
+          </div>
         </article>
 
-        <article class="service-card reveal svc-emergency">
-          <div class="svc-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg>
+        <article class="service-card svc-emergency reveal">
+          <div class="card-top"></div>
+          <div class="card-body">
+            <div class="emerg-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg>
+            </div>
+            <div class="emerg-text">
+              <h3>24/7 Emergency Line</h3>
+              <p>Flood, burst geyser, blocked sewer or no water? A real plumber — not a machine — answers our line any time, day or night.</p>
+            </div>
+            <a href="tel:+27638742223" class="btn btn-primary btn-xl">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call Now
+            </a>
           </div>
-          <h3>24/7 Emergencies</h3>
-          <p>Flood, burst geyser, blocked sewer or no water? A real plumber — not a machine — answers our line any time, day or night.</p>
-          <a href="tel:+27638742223" class="svc-link">Call the emergency line <span>→</span></a>
         </article>
       </div>
     </div>
@@ -270,8 +338,8 @@
   <section class="why section" id="why">
     <div class="container why-inner">
       <div class="why-copy reveal">
-        <span class="eyebrow dark"><span class="pulse-dot"></span> WHY LJS</span>
-        <h2>The plumbers &amp; drainlayers locals actually <span class="gradient-text">recommend.</span></h2>
+        <span class="eyebrow dark">Why LJS</span>
+        <h2>The plumbers locals actually <span class="accent-red">recommend.</span></h2>
         <p>Plumbing problems are stressful enough. We turn up when we say we will, quote before we start, and leave the place cleaner than we found it. That's it — no drama, no excuses.</p>
 
         <ul class="why-list">
@@ -305,30 +373,25 @@
           </li>
         </ul>
 
-        <a href="#contact" class="btn btn-primary btn-xl">Get a free quote <span>→</span></a>
+        <a href="#contact" class="btn btn-primary btn-xl">Get a free quote</a>
       </div>
 
       <div class="why-visual reveal">
-        <div class="why-card">
-          <div class="why-card-top">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="20 6 9 17 4 12"/></svg>
-            <span>Workmanship Guaranteed</span>
-          </div>
-          <div class="why-card-quote">
-            "Geyser burst at 11pm and they were on-site within an hour. New unit fitted, water cleaned up, zero drama. These guys are the real deal."
-          </div>
-          <div class="why-card-by">
+        <div class="testi-card">
+          <span class="testi-tape">Verified Client</span>
+          <div class="testi-quote">Geyser burst at 11pm and they were on-site within the hour. New unit fitted, water cleaned up, zero drama. These guys are the real deal.</div>
+          <div class="testi-by">
             <div class="avatar">TM</div>
             <div>
               <strong>Thabo M.</strong>
-              <span>Verified client</span>
+              <span>Happy client</span>
             </div>
           </div>
-          <div class="why-card-stars">★★★★★</div>
-        </div>
-        <div class="why-badge">
-          <strong>4.9 / 5</strong>
-          <span>from 120+ clients</span>
+          <div class="testi-stars">★★★★★</div>
+          <div class="rating-stamp">
+            <strong>4.9</strong>
+            <span>120+ reviews</span>
+          </div>
         </div>
       </div>
     </div>
@@ -338,8 +401,8 @@
   <section class="process section" id="process">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow dark"><span class="pulse-dot"></span> HOW IT WORKS</span>
-        <h2>From panic to <span class="gradient-text">fixed</span> in 3 steps.</h2>
+        <span class="eyebrow cream">How it works</span>
+        <h2>From panic to <span class="accent-gold">fixed</span> in 3 steps.</h2>
       </div>
       <div class="process-grid">
         <div class="process-step reveal">
@@ -365,25 +428,25 @@
   <section class="contact section" id="contact">
     <div class="container contact-inner">
       <div class="contact-copy reveal">
-        <span class="eyebrow"><span class="pulse-dot"></span> GET HELP NOW</span>
-        <h2>Need a plumber? <br/><span class="gradient-text">We can be there today.</span></h2>
-        <p>Tap the WhatsApp button, send a photo of the problem, and we'll tell you exactly what it'll cost — before we roll.</p>
+        <span class="eyebrow">Get help now</span>
+        <h2>Need a plumber? <br/><span class="accent-red">We can be there today.</span></h2>
+        <p>Tap WhatsApp, send a photo of the problem, and we'll tell you exactly what it'll cost — before we roll.</p>
 
         <div class="contact-actions">
           <a href="https://wa.me/27638742223?text=Hi%20LJS%20Plumbers%2C%20I%20need%20a%20plumber." target="_blank" rel="noopener" class="btn btn-wa btn-xl">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.82 11.82 0 0 0 12 0C5.37 0 0 5.37 0 12a11.94 11.94 0 0 0 1.64 6L0 24l6.2-1.62A11.9 11.9 0 0 0 12 24c6.63 0 12-5.37 12-12a11.82 11.82 0 0 0-3.48-8.52zM12 21.82a9.84 9.84 0 0 1-5-1.36l-.36-.21-3.68.97.98-3.58-.23-.37A9.82 9.82 0 1 1 21.82 12 9.84 9.84 0 0 1 12 21.82zm5.36-7.38c-.29-.15-1.73-.86-2-.96s-.46-.15-.66.15-.75.95-.92 1.15-.33.22-.62.07a8.06 8.06 0 0 1-2.37-1.47 8.85 8.85 0 0 1-1.64-2.05c-.17-.29 0-.45.13-.59s.29-.34.43-.51a1.92 1.92 0 0 0 .29-.48.53.53 0 0 0 0-.51c-.07-.15-.66-1.6-.91-2.19s-.48-.5-.66-.51h-.57a1.09 1.09 0 0 0-.79.37 3.3 3.3 0 0 0-1 2.45c0 1.45 1.05 2.85 1.2 3.05s2.07 3.15 5.02 4.42a17 17 0 0 0 1.68.62 4 4 0 0 0 1.86.12c.57-.09 1.73-.71 1.97-1.39a2.45 2.45 0 0 0 .17-1.39c-.07-.12-.27-.19-.56-.34z"/></svg>
             WhatsApp us now
           </a>
-          <a href="tel:+27638742223" class="btn btn-ghost btn-xl">
+          <a href="tel:+27638742223" class="btn btn-outline btn-xl">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            Call 063 874 2223
+            063 874 2223
           </a>
         </div>
 
         <div class="contact-meta">
           <div><strong>Phone</strong><span><a href="tel:+27638742223">063 874 2223</a></span></div>
           <div><strong>Email</strong><span><a href="mailto:Ljsplumbing@outlook.com">Ljsplumbing@outlook.com</a></span></div>
-          <div><strong>Hours</strong><span>24/7 — emergencies any time</span></div>
+          <div><strong>Hours</strong><span>24/7 emergencies</span></div>
         </div>
       </div>
 
@@ -405,7 +468,7 @@
           <span>What's the problem?</span>
           <textarea name="message" rows="4" required placeholder="e.g. Geyser leaking through the ceiling since this morning."></textarea>
         </label>
-        <button type="submit" class="btn btn-primary btn-xl">Send request <span>→</span></button>
+        <button type="submit" class="btn btn-primary btn-xl">Send request</button>
         <small>By sending, you agree we can contact you about your plumbing job. No spam — ever.</small>
       </form>
     </div>
@@ -415,27 +478,20 @@
   <footer class="footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <svg class="logo-svg footer-logo" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <defs>
-            <linearGradient id="ljsGradF" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stop-color="#7FD6E8"/>
-              <stop offset="100%" stop-color="#1BA0C0"/>
-            </linearGradient>
-          </defs>
-          <g transform="translate(8,12)">
-            <path d="M28 2 C28 2, 10 22, 10 36 a18 18 0 0 0 36 0 C46 22, 28 2, 28 2 Z" fill="url(#ljsGradF)"/>
-            <circle cx="22" cy="34" r="4" fill="#ffffff" opacity="0.85"/>
-          </g>
-          <text x="72" y="38" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="26" fill="#ffffff" letter-spacing="1">LJS</text>
-          <text x="72" y="58" font-family="Plus Jakarta Sans, sans-serif" font-weight="600" font-size="11" fill="#7FD6E8" letter-spacing="2">PLUMBERS &amp; DRAINLAYERS</text>
-        </svg>
+        <a href="#home" class="logo" aria-label="LJS Plumbers & Drainlayers">
+          <img src="images/logo.png" alt="LJS Plumbers & Drainlayers logo" class="logo-img" onerror="this.style.display='none'" />
+          <div class="logo-text">
+            <span class="logo-text-name">LJS</span>
+            <span class="logo-text-sub">Plumbers &amp; Drainlayers</span>
+          </div>
+        </a>
         <p>Trusted, qualified plumbers and drainlayers. Burst geysers, blocked drains, pipe repairs, sewer &amp; storm water drainage, bathroom revamps and building services. Available 24/7.</p>
       </div>
       <div class="footer-col">
         <h5>Services</h5>
         <ul>
           <li><a href="#services">Burst geysers</a></li>
-          <li><a href="#services">Sewer &amp; storm water drainage</a></li>
+          <li><a href="#services">Sewer &amp; storm water</a></li>
           <li><a href="#services">Pipe repairs</a></li>
           <li><a href="#services">Blocked drains</a></li>
           <li><a href="#services">Bathroom revamps</a></li>
